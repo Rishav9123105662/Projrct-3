@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body
+{
+    width:100%;
+    height:100%;
+    font-family: almarena;
+}
+#main
+{
+    width:100%;
+    height:100%;
+    display:flex;
+}
+#left
+{
+    width:80%;
+    height:100%;
+    position: relative;
+    top:0;
+    left:0;
+}
+#right
+{
+    width:20%;
+    height:100%;
+    position:relative;
+    top:0;
+    right:0;
+    background-image:url(https://images.unsplash.com/photo-1606820049407-03c1821c99ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJlZCUyMGJhZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+}
+#leftside
+{
+    width:28%;
+    height:40%;
+    position: absolute;
+    bottom:4%;
+    left:6%;
+
+}
+#leftside h1
+{
+    letter-spacing: 3px;
+}
+#leftside span
+{
+    color:#f1201c
+}
+#leftside h5{
+    margin-top: 25px;
+    font-size: 11px;
+}
+#lftb
+{
+    width:24%;
+    height:8%;
+    
+    position: absolute;
+    top:8%;
+    left:5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#lftb button
+{
+    padding: 8px 20px;
+    border: none;
+    color: white;
+    background-color: #f1201c;
+}
+#lftc
+{
+    width:18%;
+    height:35%;
+    position:absolute;
+    top:0%;
+    right:25%;
+}
+#lftc #photo
+{
+    width:95%;
+    height:72%;
+    background-image: url(https://www.designeritalianbags.com/wp-content/uploads/2020/06/products-02MO4097CLRD.jpg); 
+    background-size:cover;
+}
+#lftc #write
+{
+    margin-top: 18px;
+    width:85%;
+    height:10%;
+}
+#left #myone
+{
+    width:23%;
+    height:15%;
+    position: absolute;
+    top:6%;
+    right:-8%;
+    z-index: 999;
+    padding: 15px;
+}
+#myone h6{
+    font-size: 11px;
+    margin-top: 10px;
+}
+#myone h5{
+    color:#f1201c;
+}
+#wear 
+{
+  width:24%;
+  height:65%;
+  position:absolute;
+  right:0;
+  top:26%;
+}
+#wear #pic
+{
+    width:100%;
+    height:50%;
+    background-image: url(https://media.istockphoto.com/photos/female-fashion-concept-outdoor-portrait-of-a-young-beautiful-picture-id600417294?k=20&m=600417294&s=612x612&w=0&h=gp3NPk6dVnxkLzU95DAzg92BdIPjpOuDZ19F0d8nTGE=);
+    background-size: cover;
+    margin-top:32%;
+    margin-bottom: 6%;
+}
+#btmlft
+{
+    width:40%;
+    height:8%;
+    background-color:#f1201c;
+    position:absolute;
+    bottom: 0;
+    right:0;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+#btmlft h5{
+    margin-left: 20%;
+}
+#right #btmrht
+{
+ width:40%;
+ height: 8%;
+ position: absolute;
+ bottom: 0;
+ left:0;
+ background-color:#f1201c;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ color: white;
+}
+#btmrht i{
+    margin-left: 32%;
+}
+#icons
+{
+    position:absolute;
+    top:38%;
+    left:7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 6%;
+    height:40px;
+
+}
+#icon1{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    transform-origin: 0 100%;
+    transform:rotate(-90deg);
+    position: absolute;
+    
+}
+#icon1 #line{
+    position: absolute;
+    margin-left: -29px;
+    width:20px;
+    height:2px;
+    background-color: black;
+}
+#icon2
+{
+    color:red;
+}
